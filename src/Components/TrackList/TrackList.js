@@ -11,8 +11,7 @@ export class TrackList extends React.Component {
                         return <Track track={track} key={track.id} />
                     })
                 }
-            
-                 {/* <Track tracks={this.props.tracks}/> */}
+
             </div>
            
         )
